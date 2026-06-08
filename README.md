@@ -26,7 +26,7 @@ Do not commit real runtime memory, secrets, or private persona prompts.
 - Private prompt files should live outside the repo or under `private/`, which is ignored.
 - Use `memory.example.json` and `.env.example` as safe public templates.
 
-If this repository was private before, remember that removing a file from the current tree does not erase it from Git history. Publish from a fresh sanitized repository or rewrite history if old commits contain sensitive data.
+This public repository is sanitized for distribution. Keep runtime memory, tokens, and private persona prompts outside Git.
 
 ## Environment Variables
 
